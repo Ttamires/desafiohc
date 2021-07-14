@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #800080;    
+}
+html{
+    scroll-behavior: smooth;
+}
+title{
+    display: none;
+}
+img{
+    width: 50%;
+    height: 50%;
+    border: 3px solid #000;
+    border-radius: 100%;
+    align-self: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2, h3{
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    color: #000;
+}
+ .content{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     background: #800080;
+     overflow-y: auto;
+     padding: 0 3%;
+ }
+ section.decricao{
+     position: relative;
+     top: 50%;
+   
+ }
+ section.descricao img{
+    width: 30%;
+    height: 30%;
+    border: 6px solid #000;
+    align-self: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ section.decricao h3{
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    color: #000;
+ }
+ form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #800080;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color:#800080;
+}
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+.button {
+    padding-left: 90px; 
+}
+
+main{
+    background-color: #800080;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-main{
+    max-width: 410px;
+}
+.container-main h1{
+    line-height: 2;
+}
+.container-main h4{
+    margin-bottom: 20px;
+    line-height: 2;
+    font-weight: 200;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    height: 150px;
+    padding: 25px;    
+}
+.card-container{
+    background: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 4500px;
+}
